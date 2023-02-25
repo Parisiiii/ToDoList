@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<title>Lista de tarefas</title>
+<head>
+    <meta charset="UTF-8">
+    <title>Modelo</title>
+    <style>
+
+
+
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+  }
+
+  body {
+      margin: 0;
+      padding: 0;
+      background: rgb(17, 86, 102);
+      font-family: 'Open sans', sans-serif;
+      font-size: 1.3em;
+      line-height: 1.5em;
+  }
+
+  .container {
+      max-width: 640px;
+      margin: 50px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+  }
+
+
+    </style>
+</head>
+
+<body>
+
+    <section class="container">
+        <h1>Lista de tarefas</h1>
+        <p>
+            <input type="text" class="inputNovaTarefa">
+            <button class="btnAddTarefa">Adicionar tarefa</button>
+        </p>
+
+        <ul class="tarefas"></ul>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
